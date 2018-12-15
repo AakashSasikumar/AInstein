@@ -21,6 +21,8 @@ def responceFor(input):
             return wa.scrapeDescription(fa.extractName(preprocessedQuestion), int(noOfWordsRegexSearch.group().split(' ')[1]))
     elif questionClass == "recommend":
         interests = fa.extractName(preprocessedQuestion)
-        return tr.recommendTeacher(interests)
+        teacherName = tr.recommendTeacher(interests)
+        # fa.facultyName = teacherName
+        return teacherName
 
     return "Oops, I can't understand"

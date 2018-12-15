@@ -60,11 +60,12 @@ def extractName(originalSentence):
 
 
 def getInterest(originalSentence):
+    global facultyName
     name = extractName(originalSentence)
     if name == '' and facultyName:
         name = facultyName
     ID = findFacultyID(name)
-
+    facultyName = name
     if ID == -1:
         return None
     else:

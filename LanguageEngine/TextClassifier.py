@@ -16,6 +16,7 @@ class Classifier():
     """
 
     SIMPLE_CLASSIFIER = 1
+    CNN_CLASSIFIER=2
 
     def __init__(self, type=SIMPLE_CLASSIFIER):
         if type is Classifier.SIMPLE_CLASSIFIER:

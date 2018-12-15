@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\Code\\Python\\AInstein\\LanguageEngine\\models\\W2VCNNClassifier\\data\\TrainedModel\\model.tflearn"
+all_model_checkpoint_paths: "D:\\Code\\Python\\AInstein\\LanguageEngine\\models\\W2VCNNClassifier\\data\\TrainedModel\\model.tflearn"

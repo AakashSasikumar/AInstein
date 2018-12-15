@@ -129,6 +129,7 @@ def padSentenceVector(vector, length, size=WORD_VEC_SIZE):
         return vector
     else:
         for i in range(length - len(vector)):
+            # print(i)
             vector.append(np.zeros(size))
         return vector
 
